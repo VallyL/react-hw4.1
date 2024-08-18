@@ -1,0 +1,27 @@
+.answerContainer {
+  width: 100%;
+}
+
+.answerForm {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.answerForm > input {
+  border: 1px solid rgb(130, 28, 48);
+  border-radius: 5px;
+  width: 50%;
+  height: 25px;
+  padding-left: 10px;
+}
+
+.answerForm > button {
+  border: 1px solid rgb(130, 28, 48);
+  border-radius: 5px;
+  width: 20%;
+  background-color: rgb(130, 28, 48);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
